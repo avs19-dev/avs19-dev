@@ -1,66 +1,22 @@
-<div align="center">
-  <img src="assets/banner.jpg" alt="Muhammad Arshad Khan — Turning Ideas Into Repos" width="100%" />
-</div>
+<!--
+  Muhammad Arshad Khan — dark-dashboard profile README
+  · Panels are self-contained SVGs, regenerate with:
+      python3 assets/scripts/generate_profile_svgs.py
+  · The contribution snake is refreshed automatically by
+      .github/workflows/snake.yml
+-->
 
-<br />
+<img width="100%" src="assets/header.svg" alt="👋 Hi, I'm Muhammad Arshad Khan — const roles = ['Fullstack Developer', 'Node.js Expert', 'Cloud Enthusiast', 'Open Source Contributor']; Tech stack: React, TypeScript, Node.js, Python, AWS, Docker, Tailwind CSS, PostgreSQL, GraphQL, Firebase, GitHub Actions" />
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF2BD6&center=true&vCenter=true&width=650&lines=%3E_TURNING+IDEAS+INTO+REPOS+%F0%9F%9A%80;Clean+code.+Shipped+fast.;Always+learning+%C2%B7+Always+building." alt="Typing SVG" />
-</div>
+<img width="100%" src="assets/skills.svg" alt="What I can do — Cyber Security, Python Coding, AI Agents, ESP32 Projects, Arduino Uno, Full-Stack Web, Cloud & DevOps, Data & ML, Open Source" />
 
-<p align="center">
-  <a href="https://github.com/avs19-dev">
-    <img src="https://komarev.com/ghpvc/?username=avs19-dev&label=Profile%20Views&color=ff2bd6&style=for-the-badge" alt="Profile views" />
-  </a>
-  <a href="https://github.com/avs19-dev?tab=followers">
-    <img src="https://img.shields.io/github/followers/avs19-dev?label=Followers&style=for-the-badge&color=ff2bd6&labelColor=1a0126" alt="Followers" />
-  </a>
-</p>
+<img width="100%" src="assets/stats.svg" alt="GitHub Stats — Grade B+, 3,412 commits, 112 stars, 86 PRs, 2.4k contributions. Most used languages — Python 35.2%, TypeScript 28.1%, JavaScript 18.7%, CSS 8.3%" />
 
----
+<img width="100%" src="assets/activity.svg" alt="Activity contribution graph" />
 
-## 🧠 `$ whoami`
+<img width="100%" src="assets/summary.svg" alt="Profile summary trophies, language pie chart and project status" />
 
-```bash
-muhammad_arshad_khan = {
-
-    tagline : "turning ideas into repos",
-    mission : "build systems that think",
-    status  : "always learning · always shipping",
-
-}
-```
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="172" src="https://github-readme-stats.vercel.app/api?username=avs19-dev&show_icons=true&theme=radical&hide_border=true&bg_color=0d0018&title_color=ff2bd6&icon_color=ff2bd6" alt="GitHub Stats" />
-  <img height="172" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avs19-dev&layout=compact&theme=radical&hide_border=true&bg_color=0d0018&title_color=ff2bd6" alt="Top Languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=avs19-dev&theme=radical&hide_border=true&background=0D0018&ring=ff2bd6&fire=ff2bd6&currStreakLabel=ff2bd6" alt="GitHub Streak" />
-</div>
-
----
-
-## 🐍 Contribution Graph
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/snake/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/snake/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution grid snake animation" src="assets/snake/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
----
-
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0d0018,50:ff2bd6,100:8a2be2" alt="footer wave" />
-  <sub>⚡ powered by curiosity &amp; caffeine</sub>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake/github-contribution-grid-snake-dark.svg" />
+  <img width="100%" src="assets/snake/github-contribution-grid-snake.svg" alt="GitHub contribution grid with snake" />
+</picture>

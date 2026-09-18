@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="236" viewBox="0 0 860 236">
+<rect x="0.5" y="8.5" width="440" height="219" rx="12" fill="#0e1524" stroke="#1c2740" stroke-width="1"/>
+<text x="20" y="38" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#e8edf4" font-weight="700" text-anchor="start">🏆 Profile Summary</text>
+<text x="46" y="78" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="46" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Stars</text>
+<text x="107" y="78" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="107" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Commits</text>
+<text x="168" y="78" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="168" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Followers</text>
+<text x="229" y="78" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="229" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Issues</text>
+<text x="290" y="78" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="290" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">PRs</text>
+<text x="351" y="78" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="351" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Repos</text>
+<text x="412" y="78" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="412" y="100" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Languages</text>
+<text x="46" y="140" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="46" y="162" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Security</text>
+<text x="107" y="140" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="107" y="162" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">AI Agents</text>
+<text x="168" y="140" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="168" y="162" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">IoT</text>
+<text x="229" y="140" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="229" y="162" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Arduino</text>
+<text x="290" y="140" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="290" y="162" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Python</text>
+<text x="351" y="140" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="351" y="162" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">Cloud</text>
+<text x="412" y="140" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#e8edf4" font-weight="400" text-anchor="middle">🏆</text>
+<text x="412" y="162" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" fill="#8b949e" font-weight="400" text-anchor="middle">OSS</text>
+<rect x="454.5" y="8.5" width="240" height="219" rx="12" fill="#0e1524" stroke="#1c2740" stroke-width="1"/>
+<text x="470" y="38" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#e8edf4" font-weight="700" text-anchor="start">🧿 Language Pie Chart</text>
+<path d="M 522.0 86.0 A 46 46 0 0 1 559.4 158.8 L 543.1 147.1 A 26 26 0 0 0 522.0 106.0 Z" fill="#58a6ff"/>
+<path d="M 558.9 159.5 A 46 46 0 0 1 488.5 163.5 L 503.1 149.8 A 26 26 0 0 0 542.8 147.5 Z" fill="#bc8cff"/>
+<path d="M 487.9 162.9 A 46 46 0 0 1 480.0 113.3 L 498.3 121.4 A 26 26 0 0 0 502.7 149.4 Z" fill="#e3b341"/>
+<path d="M 480.4 112.4 A 46 46 0 0 1 494.9 94.8 L 506.7 111.0 A 26 26 0 0 0 498.5 120.9 Z" fill="#f778ba"/>
+<path d="M 495.7 94.3 A 46 46 0 0 1 521.1 86.0 L 521.5 106.0 A 26 26 0 0 0 507.1 110.7 Z" fill="#263042"/>
+<circle cx="584" cy="93" r="4" fill="#58a6ff"/>
+<text x="594" y="96" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#e8edf4" font-weight="400" text-anchor="start">Python</text>
+<circle cx="584" cy="114" r="4" fill="#bc8cff"/>
+<text x="594" y="117" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#e8edf4" font-weight="400" text-anchor="start">TypeScript</text>
+<circle cx="584" cy="135" r="4" fill="#e3b341"/>
+<text x="594" y="138" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#e8edf4" font-weight="400" text-anchor="start">JavaScript</text>
+<circle cx="584" cy="156" r="4" fill="#f778ba"/>
+<text x="594" y="159" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#e8edf4" font-weight="400" text-anchor="start">CSS</text>
+<circle cx="584" cy="177" r="4" fill="#263042"/>
+<text x="594" y="180" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10" fill="#e8edf4" font-weight="400" text-anchor="start">Other</text>
+<rect x="708.5" y="8.5" width="151" height="219" rx="12" fill="#0e1524" stroke="#1c2740" stroke-width="1"/>
+<text x="724" y="38" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#e8edf4" font-weight="700" text-anchor="start">🚀 Project Status</text>
+<path d="M 784 144 L 822 157 L 784 170 L 746 157 Z" fill="#1f4fbf" opacity="1.0"/>
+<path d="M 784 127 L 822 140 L 784 153 L 746 140 Z" fill="#2f6feb" opacity="0.88"/>
+<path d="M 784 110 L 822 123 L 784 136 L 746 123 Z" fill="#58a6ff" opacity="0.76"/>
+<circle cx="784" cy="182" r="3.5" fill="#3fb950"/>
+<text x="784" y="202" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" fill="#8b949e" font-weight="400" text-anchor="middle">all systems building</text>
+</svg>
