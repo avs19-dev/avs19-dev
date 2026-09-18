@@ -1,0 +1,39 @@
+name: 🐍 Generate Contribution Snake
+
+on:
+  workflow_dispatch:            # allow manual runs
+  schedule:
+    - cron: "0 0 * * *"         # regenerate once a day (00:00 UTC)
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Prevent infinite loop: skip when this workflow's own bot commits pushed
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVGs from contribution graph
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: avs19-dev
+          outputs: |
+            assets/snake/github-contribution-grid-snake.svg
+            assets/snake/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit & push snake assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/snake/*.svg
+          git commit -m "🐍 chore: update contribution snake" || echo "No snake changes to commit"
+          git push
