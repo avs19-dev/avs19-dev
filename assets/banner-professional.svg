@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="300" viewBox="0 0 1500 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#101B33"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F6FEB"/>
+      <stop offset="0.6" stop-color="#2F6FEB" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#2F6FEB" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="hex" width="56" height="64" patternUnits="userSpaceOnUse">
+      <path d="M28 2 L52 16 L52 46 L28 60 L4 46 L4 16 Z" fill="none" stroke="#3B82F6" stroke-opacity="0.07" stroke-width="1.4"/>
+    </pattern>
+  </defs>
+
+  <rect width="1500" height="300" fill="url(#bg)"/>
+  <rect x="760" y="0" width="740" height="300" fill="url(#hex)"/>
+
+  <!-- left accent bar -->
+  <rect x="70" y="86" width="5" height="128" rx="2.5" fill="#2F6FEB"/>
+
+  <!-- name & title -->
+  <text x="104" y="140" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="600" letter-spacing="7" fill="#EAF0F7">MUHAMMAD ARSHAD KHAN</text>
+  <text x="106" y="186" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="500" letter-spacing="4" fill="#93A7C4">FULL-STACK DEVELOPER · CYBER SECURITY · AI AGENTS · IoT &amp; EMBEDDED</text>
+
+  <!-- bottom hairline -->
+  <rect x="70" y="238" width="1360" height="2" fill="url(#line)"/>
+  <text x="106" y="270" font-family="Consolas,'Courier New',monospace" font-size="14" letter-spacing="2" fill="#5E7392">RAWALPINDI, PAKISTAN — OPEN TO COLLABORATIONS</text>
+
+  <!-- monogram -->
+  <g transform="translate(1330,120)">
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#2F6FEB" stroke-opacity="0.55" stroke-width="1.6"/>
+    <circle cx="0" cy="0" r="52" fill="#0E1930" stroke="#22304C" stroke-width="1"/>
+    <text x="0" y="14" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" letter-spacing="2" fill="#7FB2FF" text-anchor="middle">MA</text>
+  </g>
+</svg>
