@@ -1,4 +1,4 @@
-![Muhammad Arshad Khan — Full-Stack Developer · Cyber Security · AI Agents · IoT & Embedded](designs/professional/assets/banner-professional.svg)
+![Muhammad Arshad Khan — Full-Stack Developer · Cyber Security · AI Agents · IoT & Embedded](assets/banner-professional.svg)
 
 <h3 align="center">Hi, I'm Muhammad Arshad Khan 👋</h3>
 <p align="center">
@@ -87,11 +87,11 @@ projects that solve real problems.
 
 ### 📊 Performance Dashboard
 
-<img width="100%" src="designs/dashboard/assets/stats.svg" alt="GitHub Stats — Grade B+, 3,412 commits, 112 stars, 86 PRs, 2.4k contributions · Most used languages: Python, TypeScript, JavaScript, CSS" />
+<img width="100%" src="assets/dashboard/stats.svg" alt="GitHub Stats — Grade B+, 3,412 commits, 112 stars, 86 PRs, 2.4k contributions · Most used languages: Python, TypeScript, JavaScript, CSS" />
 
-<img width="100%" src="designs/dashboard/assets/activity.svg" alt="Activity analyzer — contribution graph" />
+<img width="100%" src="assets/dashboard/activity.svg" alt="Activity analyzer — contribution graph" />
 
-<img width="100%" src="designs/dashboard/assets/summary.svg" alt="Profile summary trophies, language pie chart and project status" />
+<img width="100%" src="assets/dashboard/summary.svg" alt="Profile summary trophies, language pie chart and project status" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/snake/github-contribution-grid-snake-dark.svg" />
