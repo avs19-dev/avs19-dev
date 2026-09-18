@@ -85,18 +85,16 @@ projects that solve real problems.
 
 ---
 
-### 📊 Performance Dashboard
+### 📊 GitHub Stats
 
-<img width="100%" src="designs/dashboard/assets/stats.svg" alt="GitHub Stats — Grade B+, 3,412 commits, 112 stars, 86 PRs, 2.4k contributions · Most used languages: Python, TypeScript, JavaScript, CSS" />
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=avs19-dev&show_icons=true&hide_border=true&bg_color=00000000&title_color=2f6feb&icon_color=2f6feb&text_color=6b7280" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=avs19-dev&layout=compact&hide_border=true&bg_color=00000000&title_color=2f6feb&text_color=6b7280" alt="Top languages" />
+</p>
 
-<img width="100%" src="designs/dashboard/assets/activity.svg" alt="Activity analyzer — contribution graph" />
-
-<img width="100%" src="designs/dashboard/assets/summary.svg" alt="Profile summary trophies, language pie chart and project status" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake/github-contribution-grid-snake-dark.svg" />
-  <img width="100%" src="assets/snake/github-contribution-grid-snake.svg" alt="GitHub contribution grid with snake" />
-</picture>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=avs19-dev&theme=github-compact&hide_border=true&area=true" alt="Contribution activity graph" />
+</p>
 
 ---
 

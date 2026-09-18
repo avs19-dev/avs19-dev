@@ -347,11 +347,11 @@ def snake_svg() -> str:
 
 def main():
     files = {
-        "assets/dashboard/header.svg": header_svg(),
-        "assets/dashboard/skills.svg": skills_svg(),
-        "assets/dashboard/stats.svg": stats_svg(),
-        "assets/dashboard/activity.svg": activity_svg(),
-        "assets/dashboard/summary.svg": summary_svg(),
+        "designs/dashboard/assets/header.svg": header_svg(),
+        "designs/dashboard/assets/skills.svg": skills_svg(),
+        "designs/dashboard/assets/stats.svg": stats_svg(),
+        "designs/dashboard/assets/activity.svg": activity_svg(),
+        "designs/dashboard/assets/summary.svg": summary_svg(),
         "assets/snake/github-contribution-grid-snake.svg": snake_svg(),
         "assets/snake/github-contribution-grid-snake-dark.svg": snake_svg(),
     }
