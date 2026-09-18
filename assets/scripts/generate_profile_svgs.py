@@ -246,7 +246,7 @@ def activity_svg() -> str:
                f'<stop offset="1" stop-color="{PURPLE}" stop-opacity="0.55"/>'
                '</linearGradient></defs>')
     out.append(panel(W, H))
-    out.append(txt(20, 32, "📈 Activity Contribution Graph", 13, TEXT, 700))
+    out.append(txt(20, 32, "📈 Activity Analyzer — Contribution Graph", 13, TEXT, 700))
     out.append(f'<circle cx="{W-150}" cy="28" r="4" fill="{BLUE}"/>')
     out.append(txt(W - 140, 32, "contributions", 10.5, MUTED))
     out.append(f'<circle cx="{W-60}" cy="28" r="4" fill="{PURPLE}"/>')
