@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 92" width="1200" height="92" role="img" aria-label="HUD ARSENAL">
+<title>HUD ARSENAL</title>
+<defs>
+  <linearGradient id="sbg" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#07192E" /><stop offset="45%" stop-color="#03101E" /><stop offset="100%" stop-color="#02070F" />
+  </linearGradient>
+  <linearGradient id="sline" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#4DA6FF" stop-opacity="0" /><stop offset="14%" stop-color="#4DA6FF" stop-opacity=".85" />
+    <stop offset="86%" stop-color="#4DA6FF" stop-opacity=".85" /><stop offset="100%" stop-color="#4DA6FF" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="strav" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" /><stop offset="50%" stop-color="#FFFFFF" stop-opacity=".9" />
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+  </linearGradient>
+  <pattern id="sgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0v24" fill="none" stroke="#4DA6FF" stroke-width=".35" stroke-opacity=".13" />
+  </pattern>
+  <filter id="sg" x="-60%" y="-120%" width="220%" height="340%">
+    <feGaussianBlur stdDeviation="1.7" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+  </filter>
+  <filter id="sgs" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="0.9" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+  </filter>
+  <clipPath id="sclip"><rect width="1200" height="92" /></clipPath>
+</defs>
+<style>
+  .sttl{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:23px;font-weight:700;letter-spacing:6px}
+  .ssub{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:12px;letter-spacing:2.2px}
+  .ssts{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:12px;font-weight:700;letter-spacing:2px}
+  .spn{animation:sp 14s linear infinite}
+  .spnr{animation:spr 9s linear infinite}
+  .ssw{animation:sp 4.4s linear infinite}
+  .blk{animation:bl 1.5s steps(1) infinite}
+  .pls{animation:pl 2.6s ease-in-out infinite alternate}
+  .trav{animation:tv 5.4s cubic-bezier(.5,0,.5,1) infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  @keyframes spr{from{transform:rotate(360deg)}to{transform:rotate(0deg)}}
+  @keyframes bl{0%,55%{opacity:1}56%,100%{opacity:.18}}
+  @keyframes pl{0%{opacity:.5}100%{opacity:1}}
+  @keyframes tv{0%{transform:translateX(-200px);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(1200px);opacity:0}}
+</style>
+<g clip-path="url(#sclip)">
+  <rect width="1200" height="92" fill="url(#sbg)" />
+  <rect width="1200" height="92" fill="url(#sgrid)" />
+  <rect x="18" y="10" width="6" height="72" fill="#4DA6FF" fill-opacity=".9" />
+  <rect x="1176" y="10" width="6" height="72" fill="#4DA6FF" fill-opacity=".55" />
+  <path d="M30,10 H1170" stroke="#4DA6FF" stroke-opacity=".3" />
+  <path d="M30,10 v10 M1170,10 v10" stroke="#4DA6FF" stroke-opacity=".5" stroke-width="1.6" fill="none" />
+
+  <g class="spn" style="transform-origin:66px 46px">
+    <path d="M 66,20 L 88.52,33 L 88.52,59 L 66,72 L 43.48,59 L 43.48,33 Z" fill="#4DA6FF" fill-opacity=".07" stroke="#4DA6FF" stroke-width="1.5" stroke-opacity=".8" />
+    <path d="M 99,46 A 33,33 0 0 1 44.79,71.28" fill="none" stroke="#4DA6FF" stroke-width="2" stroke-opacity="0.85" stroke-linecap="round" />
+  </g>
+  <g class="spnr" style="transform-origin:66px 46px">
+    <path d="M 74.5,31.28 L 83,46 L 74.5,60.72 L 57.5,60.72 L 49,46 L 57.5,31.28 Z" fill="none" stroke="#4DA6FF" stroke-width="1.2" stroke-dasharray="9 6" />
+  </g>
+  <g class="ssw" style="transform-origin:66px 46px">
+    <path d="M 66,46 L 81.98,29.46 A 23,23 0 0 1 89,46 Z" fill="#4DA6FF" fill-opacity=".3" />
+  </g>
+  <circle cx="66" cy="46" r="3.4" fill="#FFFFFF" class="pls" filter="url(#sgs)" />
+
+  <text x="106" y="42" class="sttl" fill="#4DA6FF" filter="url(#sg)">HUD ARSENAL</text>
+  <text x="106" y="66" class="ssub" fill="#9FDCFF" fill-opacity=".9">TOOLING MATRIX // RUNTIMES · CYBER · AI AGENTS · INFRASTRUCTURE</text>
+
+  <text x="1166" y="66" class="ssts" text-anchor="end" fill="#4DA6FF">24 SYSTEMS REGISTERED</text>
+  <circle cx="1046" cy="40" r="5" fill="#3DFFB0" class="blk" style="animation-delay:0.0s" filter="url(#sgs)" /><circle cx="1066" cy="40" r="5" fill="#00E5FF" class="blk" style="animation-delay:0.45s" filter="url(#sgs)" /><circle cx="1086" cy="40" r="5" fill="#4DA6FF" class="blk" style="animation-delay:0.9s" filter="url(#sgs)" />
+
+  <rect x="30" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="47" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="64" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="81" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="98" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="115" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="132" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="149" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="166" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="183" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="200" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="217" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="234" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="251" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="268" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="285" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="302" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="319" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="336" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="353" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="370" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="387" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="404" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="421" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="438" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="455" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="472" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="489" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="506" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="523" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="540" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="557" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="574" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="591" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="608" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="625" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="642" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="659" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="676" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="693" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="710" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="727" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="744" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="761" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="778" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="795" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="812" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="829" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="846" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="863" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="880" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="897" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="914" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="931" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="948" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="965" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="982" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="999" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="1016" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="1033" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="1050" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="1067" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="1084" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="1101" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="1118" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.7" /><rect x="1135" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="1152" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" /><rect x="1169" y="84" width="9" height="4" fill="#4DA6FF" fill-opacity="0.22" />
+  <line x1="30" y1="82" x2="1170" y2="82" stroke="url(#sline)" stroke-width="1.4" />
+  <g class="trav"><rect x="0" y="79" width="200" height="6" fill="url(#strav)" filter="url(#sgs)" /></g>
+</g>
+</svg>

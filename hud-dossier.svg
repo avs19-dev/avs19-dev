@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Operator dossier HUD panel">
+<title>OPERATOR DOSSIER // HUD SECTOR-01</title>
+<defs>
+  <pattern id="pgrid" width="26" height="26" patternUnits="userSpaceOnUse">
+    <path d="M26 0H0v26" fill="none" stroke="#00E5FF" stroke-width=".35" stroke-opacity=".12" />
+  </pattern>
+  <pattern id="pscan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#00E5FF" fill-opacity=".05" />
+  </pattern>
+  <linearGradient id="pline" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#00E5FF" stop-opacity="0" /><stop offset="16%" stop-color="#00E5FF" stop-opacity=".85" />
+    <stop offset="84%" stop-color="#00E5FF" stop-opacity=".85" /><stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="ppanel" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#00E5FF" stop-opacity=".10" /><stop offset="100%" stop-color="#020A14" stop-opacity=".8" />
+  </linearGradient>
+  <radialGradient id="pbg" cx="50%" cy="40%" r="78%">
+    <stop offset="0%" stop-color="#07192E" /><stop offset="55%" stop-color="#03101E" /><stop offset="100%" stop-color="#02070F" />
+  </radialGradient>
+  <linearGradient id="shimG" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" /><stop offset="50%" stop-color="#FFFFFF" stop-opacity=".55" />
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+  </linearGradient>
+  <filter id="pg" x="-60%" y="-100%" width="220%" height="300%">
+    <feGaussianBlur stdDeviation="1.6" result="b" />
+    <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+  </filter>
+  <filter id="pgs" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="0.9" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+  </filter>
+  <clipPath id="rowClip"><rect x="270" y="96" width="890" height="196" /></clipPath>
+</defs>
+<style>
+  .phdr{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:22px;font-weight:700;letter-spacing:6px}
+  .plbl{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:13px;font-weight:700;letter-spacing:1.8px}
+  .pval{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:14px;letter-spacing:.4px}
+  .pbody{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:13px;letter-spacing:.3px}
+  .ptiny{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:11.5px;letter-spacing:1.2px}
+  .ptiny.b{font-weight:700}
+  .pmid{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:17px;font-weight:700;letter-spacing:4.4px}
+  .dspin{animation:ds 12s linear infinite}
+  .dspinr{animation:dsr 8s linear infinite}
+  .blinkd{animation:bd 1.5s steps(1) infinite}
+  .bar{animation:bp 3.2s ease-in-out infinite alternate}
+  .rev{animation:rv 9s ease-out infinite backwards}
+  .dsweep{animation:dsw 7s linear infinite}
+  @keyframes ds{to{transform:rotate(360deg)}}
+  @keyframes dsr{from{transform:rotate(360deg)}to{transform:rotate(0deg)}}
+  @keyframes bd{0%,55%{opacity:1}56%,100%{opacity:.15}}
+  @keyframes bp{0%{opacity:.5}100%{opacity:1}}
+  @keyframes rv{0%{opacity:.42}18%,88%{opacity:1}100%{opacity:.42}}
+  @keyframes dsw{0%{transform:translateX(0);opacity:0}8%{opacity:.75}92%{opacity:.75}100%{transform:translateX(880px);opacity:0}}
+</style>
+<rect width="1200" height="520" fill="url(#pbg)" />
+<rect width="1200" height="520" fill="url(#pgrid)" />
+<g stroke="#00E5FF" stroke-width="2.2" fill="none" stroke-opacity=".85" filter="url(#pgs)">
+  <path d="M20,52 V20 H52" /><path d="M1180,52 V20 H1148" />
+  <path d="M20,468 V500 H52" /><path d="M1180,468 V500 H1148" />
+</g>
+<rect x="30" y="16" width="1140" height="44" fill="url(#ppanel)" stroke="#00E5FF" stroke-opacity=".3" />
+<rect x="30" y="16" width="6" height="44" fill="#00E5FF" fill-opacity=".9" />
+<rect x="1164" y="16" width="6" height="44" fill="#00E5FF" fill-opacity=".9" />
+<text x="56" y="45" class="phdr" fill="#00E5FF" filter="url(#pg)">OPERATOR DOSSIER</text>
+<text x="1144" y="44" class="ptiny" text-anchor="end" fill="#9FDCFF">HUD SECTOR-01 // CLASSIFICATION: OPEN SOURCE</text>
+<line x1="30" y1="66" x2="1170" y2="66" stroke="url(#pline)" stroke-width="1.3" />
+
+<path d="M 30,104 L 54,80 H 1170 V 282 L 1146,306 H 30 Z" fill="#030C17" fill-opacity="0.74" stroke="#00E5FF" stroke-opacity="0.45" stroke-width="1.4" />
+<g class="dspinr" style="transform-origin:140px 178px">
+  <path d="M 177,113.91 L 214,178 L 177,242.09 L 103,242.09 L 66,178 L 103,113.91 Z" fill="none" stroke="#4DA6FF" stroke-width="1.1" stroke-dasharray="12 8" stroke-opacity=".7" />
+</g>
+<g class="dspin" style="transform-origin:140px 178px">
+  <circle cx="140" cy="178" r="66" fill="none" stroke="#00E5FF" stroke-width="1.8" stroke-opacity=".6" stroke-dasharray="42 18 8 18" />
+  <path d="M 62.95,149.95 A 82,82 0 0 1 181,106.99" fill="none" stroke="#00E5FF" stroke-width="2" stroke-opacity="0.5" stroke-linecap="round" />
+</g>
+<path d="M 140,120 L 190.23,149 L 190.23,207 L 140,236 L 89.77,207 L 89.77,149 Z" fill="#00E5FF" fill-opacity=".08" stroke="#00E5FF" stroke-width="1.8" filter="url(#pgs)" />
+<circle cx="140" cy="178" r="40" fill="#020A14" fill-opacity=".85" stroke="#00E5FF" stroke-width="1" stroke-opacity=".4" />
+<text x="140" y="182" text-anchor="middle" class="phdr" fill="#FFFFFF" filter="url(#pg)" style="letter-spacing:3px">A19</text>
+<text x="140" y="202" text-anchor="middle" class="ptiny" fill="#00E5FF">0x7E4A19</text>
+<circle cx="140" cy="148" r="3" fill="#FFFFFF" class="blinkd" />
+<text x="140" y="280" text-anchor="middle" class="plbl" fill="#9FDCFF">CLEARANCE</text>
+<text x="140" y="300" text-anchor="middle" class="pmid" fill="#00E5FF" filter="url(#pgs)">LEVEL 4</text>
+
+<line x1="252" y1="100" x2="252" y2="288" stroke="#00E5FF" stroke-opacity=".28" stroke-dasharray="3 6" />
+<text x="282" y="100" class="ptiny" fill="#00E5FF" fill-opacity=".75">[ IDENTITY RECORD // LIVE QUERY ]</text>
+<g class="rev" style="animation-delay:0.0s">
+      <path d="M 282,111 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="300" y="116" class="plbl" fill="#00E5FF">IDENTIFIER</text>
+      <text x="452" y="116" class="pval" fill="#EAF9FF">AVS19</text>
+      <rect x="452" y="125" width="538" height="2" fill="#00E5FF" fill-opacity=".14" />
+      <rect x="452" y="125" width="538" height="2" fill="#00E5FF" fill-opacity=".85" class="bar" style="animation-delay:0.0s" />
+      <rect x="1010" y="103" width="140" height="19" fill="#00E5FF" fill-opacity=".13" stroke="#00E5FF" stroke-opacity=".45" />
+      <text x="1080" y="117" class="ptiny b" text-anchor="middle" fill="#00E5FF">VERIFIED</text>
+    </g>
+<g class="rev" style="animation-delay:0.18s">
+      <path d="M 282,147 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="300" y="152" class="plbl" fill="#4DA6FF">CLEARANCE</text>
+      <text x="452" y="152" class="pval" fill="#EAF9FF">LEVEL 4 // WHITE-HAT OPERATOR &amp; AI AGENT ARCHITECT</text>
+      <rect x="452" y="161" width="538" height="2" fill="#4DA6FF" fill-opacity=".14" />
+      <rect x="452" y="161" width="516.48" height="2" fill="#4DA6FF" fill-opacity=".85" class="bar" style="animation-delay:0.3s" />
+      <rect x="1010" y="139" width="140" height="19" fill="#4DA6FF" fill-opacity=".13" stroke="#4DA6FF" stroke-opacity=".45" />
+      <text x="1080" y="153" class="ptiny b" text-anchor="middle" fill="#4DA6FF">GRANTED</text>
+    </g>
+<g class="rev" style="animation-delay:0.36s">
+      <path d="M 282,183 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="300" y="188" class="plbl" fill="#00E5FF">COORDINATES</text>
+      <text x="452" y="188" class="pval" fill="#EAF9FF">24.8607°N 67.0011°E // KARACHI, SINDH, PK</text>
+      <rect x="452" y="197" width="538" height="2" fill="#00E5FF" fill-opacity=".14" />
+      <rect x="452" y="197" width="473.44" height="2" fill="#00E5FF" fill-opacity=".85" class="bar" style="animation-delay:0.6s" />
+      <rect x="1010" y="175" width="140" height="19" fill="#00E5FF" fill-opacity=".13" stroke="#00E5FF" stroke-opacity=".45" />
+      <text x="1080" y="189" class="ptiny b" text-anchor="middle" fill="#00E5FF">LOCKED</text>
+    </g>
+<g class="rev" style="animation-delay:0.54s">
+      <path d="M 282,219 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="300" y="224" class="plbl" fill="#4DA6FF">PLATFORM</text>
+      <text x="452" y="224" class="pval" fill="#EAF9FF">FEDORA KDE // T460p // i7-6820HQ / 8GB / 940MX</text>
+      <rect x="452" y="233" width="538" height="2" fill="#4DA6FF" fill-opacity=".14" />
+      <rect x="452" y="233" width="398.12" height="2" fill="#4DA6FF" fill-opacity=".85" class="bar" style="animation-delay:0.8999999999999999s" />
+      <rect x="1010" y="211" width="140" height="19" fill="#4DA6FF" fill-opacity=".13" stroke="#4DA6FF" stroke-opacity=".45" />
+      <text x="1080" y="225" class="ptiny b" text-anchor="middle" fill="#4DA6FF">NOMINAL</text>
+    </g>
+<g class="rev" style="animation-delay:0.72s">
+      <path d="M 282,255 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="300" y="260" class="plbl" fill="#00E5FF">STATUS</text>
+      <text x="452" y="260" class="pval" fill="#EAF9FF">DEPLOYED // KERNEL + NETWORK TELEMETRY LIVE</text>
+      <rect x="452" y="269" width="538" height="2" fill="#00E5FF" fill-opacity=".14" />
+      <rect x="452" y="269" width="489.58" height="2" fill="#00E5FF" fill-opacity=".85" class="bar" style="animation-delay:1.2s" />
+      <rect x="1010" y="247" width="140" height="19" fill="#00E5FF" fill-opacity=".13" stroke="#00E5FF" stroke-opacity=".45" />
+      <text x="1080" y="261" class="ptiny b" text-anchor="middle" fill="#00E5FF">STREAMING</text>
+    </g>
+<g clip-path="url(#rowClip)">
+  <rect x="270" y="96" width="3" height="196" fill="#00E5FF" class="dsweep" filter="url(#pgs)" />
+</g>
+
+<g>
+  <path d="M 30,340 L 48,322 H 303 V 434 L 285,452 H 30 Z" fill="#030C17" fill-opacity="0.74" stroke="#00E5FF" stroke-opacity="0.45" stroke-width="1.3" />
+  <rect x="42" y="342" width="199" height="24" fill="#00E5FF" fill-opacity=".12" />
+  <text x="52" y="359" class="plbl" fill="#00E5FF">DIRECTIVE-01</text>
+  <g class="dspin" style="transform-origin:273px 354px"><path d="M 286,354 A 13,13 0 1 1 261.74,347.5" fill="none" stroke="#00E5FF" stroke-width="2.2" stroke-opacity="0.95" stroke-linecap="round" /><path d="M 265,354 A 8,8 0 0 1 279.93,358" fill="none" stroke="#00E5FF" stroke-width="1.6" stroke-opacity="0.6" stroke-linecap="round" /></g>
+  <line x1="44" y1="376" x2="289" y2="376" stroke="#00E5FF" stroke-opacity=".32" />
+  <text x="48" y="396" class="pbody" fill="#9FDCFF">Build self-orchestrating</text>
+<text x="48" y="414" class="pbody" fill="#9FDCFF">autonomous multi-agent</text>
+<text x="48" y="432" class="pbody" fill="#9FDCFF">meshes.</text>
+  <circle cx="50" cy="436" r="3.5" fill="#3DFFB0" class="blinkd" style="animation-delay:0.0s" />
+  <rect x="62" y="434" width="223" height="3" fill="#00E5FF" fill-opacity=".15" />
+  <rect x="62" y="434" width="156" height="3" fill="#00E5FF" fill-opacity=".85" class="bar" style="animation-delay:0.0s" />
+</g>
+<g>
+  <path d="M 319,340 L 337,322 H 592 V 434 L 574,452 H 319 Z" fill="#030C17" fill-opacity="0.74" stroke="#4DA6FF" stroke-opacity="0.45" stroke-width="1.3" />
+  <rect x="331" y="342" width="199" height="24" fill="#4DA6FF" fill-opacity=".12" />
+  <text x="341" y="359" class="plbl" fill="#4DA6FF">DIRECTIVE-02</text>
+  <g class="dspin" style="transform-origin:562px 354px"><path d="M 575,354 A 13,13 0 1 1 550.74,347.5" fill="none" stroke="#4DA6FF" stroke-width="2.2" stroke-opacity="0.95" stroke-linecap="round" /><path d="M 554,354 A 8,8 0 0 1 568.93,358" fill="none" stroke="#4DA6FF" stroke-width="1.6" stroke-opacity="0.6" stroke-linecap="round" /></g>
+  <line x1="333" y1="376" x2="578" y2="376" stroke="#4DA6FF" stroke-opacity=".32" />
+  <text x="337" y="396" class="pbody" fill="#9FDCFF">Enforce kernel-level eBPF</text>
+<text x="337" y="414" class="pbody" fill="#9FDCFF">auditing &amp; zero-trust</text>
+<text x="337" y="432" class="pbody" fill="#9FDCFF">boundaries.</text>
+  <circle cx="339" cy="436" r="3.5" fill="#3DFFB0" class="blinkd" style="animation-delay:0.35s" />
+  <rect x="351" y="434" width="223" height="3" fill="#4DA6FF" fill-opacity=".15" />
+  <rect x="351" y="434" width="173" height="3" fill="#4DA6FF" fill-opacity=".85" class="bar" style="animation-delay:0.4s" />
+</g>
+<g>
+  <path d="M 608,340 L 626,322 H 881 V 434 L 863,452 H 608 Z" fill="#030C17" fill-opacity="0.74" stroke="#00E5FF" stroke-opacity="0.45" stroke-width="1.3" />
+  <rect x="620" y="342" width="199" height="24" fill="#00E5FF" fill-opacity=".12" />
+  <text x="630" y="359" class="plbl" fill="#00E5FF">DIRECTIVE-03</text>
+  <g class="dspin" style="transform-origin:851px 354px"><path d="M 864,354 A 13,13 0 1 1 839.74,347.5" fill="none" stroke="#00E5FF" stroke-width="2.2" stroke-opacity="0.95" stroke-linecap="round" /><path d="M 843,354 A 8,8 0 0 1 857.93,358" fill="none" stroke="#00E5FF" stroke-width="1.6" stroke-opacity="0.6" stroke-linecap="round" /></g>
+  <line x1="622" y1="376" x2="867" y2="376" stroke="#00E5FF" stroke-opacity=".32" />
+  <text x="626" y="396" class="pbody" fill="#9FDCFF">Simulate adversarial breach</text>
+<text x="626" y="414" class="pbody" fill="#9FDCFF">topologies to harden</text>
+<text x="626" y="432" class="pbody" fill="#9FDCFF">platforms.</text>
+  <circle cx="628" cy="436" r="3.5" fill="#3DFFB0" class="blinkd" style="animation-delay:0.7s" />
+  <rect x="640" y="434" width="223" height="3" fill="#00E5FF" fill-opacity=".15" />
+  <rect x="640" y="434" width="191" height="3" fill="#00E5FF" fill-opacity=".85" class="bar" style="animation-delay:0.8s" />
+</g>
+<g>
+  <path d="M 897,340 L 915,322 H 1170 V 434 L 1152,452 H 897 Z" fill="#030C17" fill-opacity="0.74" stroke="#4DA6FF" stroke-opacity="0.45" stroke-width="1.3" />
+  <rect x="909" y="342" width="199" height="24" fill="#4DA6FF" fill-opacity=".12" />
+  <text x="919" y="359" class="plbl" fill="#4DA6FF">DIRECTIVE-04</text>
+  <g class="dspin" style="transform-origin:1140px 354px"><path d="M 1153,354 A 13,13 0 1 1 1128.74,347.5" fill="none" stroke="#4DA6FF" stroke-width="2.2" stroke-opacity="0.95" stroke-linecap="round" /><path d="M 1132,354 A 8,8 0 0 1 1146.93,358" fill="none" stroke="#4DA6FF" stroke-width="1.6" stroke-opacity="0.6" stroke-linecap="round" /></g>
+  <line x1="911" y1="376" x2="1156" y2="376" stroke="#4DA6FF" stroke-opacity=".32" />
+  <text x="915" y="396" class="pbody" fill="#9FDCFF">Low-level reverse</text>
+<text x="915" y="414" class="pbody" fill="#9FDCFF">engineering &amp; raw packet</text>
+<text x="915" y="432" class="pbody" fill="#9FDCFF">synthesis.</text>
+  <circle cx="917" cy="436" r="3.5" fill="#3DFFB0" class="blinkd" style="animation-delay:1.0499999999999998s" />
+  <rect x="929" y="434" width="223" height="3" fill="#4DA6FF" fill-opacity=".15" />
+  <rect x="929" y="434" width="209" height="3" fill="#4DA6FF" fill-opacity=".85" class="bar" style="animation-delay:1.2000000000000002s" />
+</g>
+
+<rect x="30" y="468" width="1140" height="40" fill="url(#ppanel)" stroke="#00E5FF" stroke-opacity=".3" />
+<path d="M 300,488 l 7,-7 l 7,7 l -7,7 Z" fill="#00E5FF" />
+<path d="M 900,488 l 7,-7 l 7,7 l -7,7 Z" fill="#00E5FF" />
+<text x="600" y="494" text-anchor="middle" class="pmid" fill="#00E5FF" filter="url(#pg)">MOTTO :: DISCIPLINE BEATS RAW TALENT</text>
+<rect width="1200" height="520" fill="url(#pscan)" pointer-events="none" />
+</svg>

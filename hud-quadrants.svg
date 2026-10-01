@@ -1,0 +1,298 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Quad-Sector Tactical Matrix">
+<title>QUAD-SECTOR TACTICAL MATRIX</title>
+<defs>
+  <radialGradient id="qbg" cx="50%" cy="42%" r="76%">
+    <stop offset="0%" stop-color="#07192E" /><stop offset="55%" stop-color="#03101E" /><stop offset="100%" stop-color="#02070F" />
+  </radialGradient>
+  <linearGradient id="qline" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#00E5FF" stop-opacity="0" /><stop offset="18%" stop-color="#00E5FF" stop-opacity=".85" /><stop offset="82%" stop-color="#00E5FF" stop-opacity=".85" /><stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="qpanel" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#00E5FF" stop-opacity=".10" /><stop offset="100%" stop-color="#020A14" stop-opacity=".8" />
+  </linearGradient>
+  <pattern id="qgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0v28" fill="none" stroke="#00E5FF" stroke-width=".35" stroke-opacity=".12" />
+  </pattern>
+  <pattern id="qscan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00E5FF" fill-opacity=".05" /></pattern>
+  <filter id="qg" x="-60%" y="-80%" width="220%" height="260%">
+    <feGaussianBlur stdDeviation="1.5" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+  </filter>
+  <filter id="qgs" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="0.9" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+  </filter>
+</defs>
+<style>
+  .qttl{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:18px;font-weight:700;letter-spacing:2.6px}
+  .qtxt{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:14px;letter-spacing:.4px}
+  .qtiny{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:11.5px;letter-spacing:1.2px}
+  .qtiny.b{font-weight:700}
+  .qhdr{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:22px;font-weight:700;letter-spacing:6px}
+  .qspin{animation:qs 16s linear infinite}
+  .qspinr{animation:qsr 11s linear infinite}
+  .qspin2{animation:qs 4.2s linear infinite}
+  .qpulse{animation:qp 2s ease-in-out infinite alternate}
+  .qblink{animation:qb 1.5s steps(1) infinite}
+  .bar{animation:qbar 3.4s ease-in-out infinite alternate}
+  @keyframes qs{to{transform:rotate(360deg)}}
+  @keyframes qsr{from{transform:rotate(360deg)}to{transform:rotate(0deg)}}
+  @keyframes qp{0%{opacity:.45}100%{opacity:1}}
+  @keyframes qb{0%,55%{opacity:1}56%,100%{opacity:.15}}
+  @keyframes qbar{0%{opacity:.55}100%{opacity:1}}
+</style>
+<rect width="1200" height="800" fill="url(#qbg)" />
+<rect width="1200" height="800" fill="url(#qgrid)" />
+
+<g stroke="#00E5FF" stroke-width="2.2" fill="none" stroke-opacity=".85" filter="url(#qgs)">
+  <path d="M20,52 V20 H52" /><path d="M1180,52 V20 H1148" />
+  <path d="M20,748 V780 H52" /><path d="M1180,748 V780 H1148" />
+</g>
+
+<rect x="30" y="16" width="1140" height="44" fill="url(#qpanel)" stroke="#00E5FF" stroke-opacity=".3" />
+<rect x="30" y="16" width="6" height="44" fill="#00E5FF" fill-opacity=".9" />
+<rect x="1164" y="16" width="6" height="44" fill="#00E5FF" fill-opacity=".9" />
+<text x="56" y="45" class="qhdr" fill="#00E5FF" filter="url(#qg)">QUAD-SECTOR TACTICAL MATRIX</text>
+<text x="1144" y="44" class="qtiny" text-anchor="end" fill="#9FDCFF">4 / 4 SECTORS ONLINE // LIVE TELEMETRY</text>
+<line x1="30" y1="66" x2="1170" y2="66" stroke="url(#qline)" stroke-width="1.3" />
+
+<g>
+  <path d="M 30,102 L 54,78 H 588 V 388 L 564,412 H 30 Z" fill="#030C17" fill-opacity="0.74" stroke="#00E5FF" stroke-opacity="0.5" stroke-width="1.4" />
+  <path d="M 64,84 H 576" stroke="#00E5FF" stroke-width="2" stroke-opacity=".8" />
+  <path d="M 38,378 V 406 H 64" stroke="#00E5FF" stroke-width="1" stroke-opacity=".35" fill="none" />
+  <g class="qspin" style="transform-origin:84px 130px">
+    <circle cx="84" cy="130" r="27" fill="none" stroke="#00E5FF" stroke-width="1" stroke-opacity=".35" stroke-dasharray="3 5" />
+    <path d="M 111,130 A 27,27 0 0 1 70.5,153.38" fill="none" stroke="#00E5FF" stroke-width="2.4" stroke-opacity="0.95" stroke-linecap="round" />
+  </g>
+  <g class="qspinr" style="transform-origin:84px 130px"><path d="M 65,130 A 19,19 0 0 1 93.5,113.55" fill="none" stroke="#00E5FF" stroke-width="2" stroke-opacity="0.7" stroke-linecap="round" /></g>
+  <g class="qspin2" style="transform-origin:84px 130px"><path d="M 84,130 L 100.07,110.85 A 25,25 0 0 1 109,130 Z" fill="#00E5FF" fill-opacity=".28" /></g>
+  <circle cx="84" cy="130" r="3.4" fill="#FFFFFF" class="qpulse" filter="url(#qg)" />
+  <circle cx="84" cy="130" r="33" fill="none" stroke="#00E5FF" stroke-width=".8" stroke-opacity=".2" />
+  <rect x="122" y="102" width="368" height="22" fill="#00E5FF" fill-opacity=".10" />
+  <text x="132" y="118" class="qttl" fill="#00E5FF" filter="url(#qg)">AUTONOMOUS AI</text>
+  <text x="132" y="138" class="qtiny" fill="#9FDCFF" fill-opacity=".85">AGENT ORCHESTRATION MESH</text>
+  <rect x="502" y="102" width="66" height="22" fill="#00E5FF" fill-opacity=".18" stroke="#00E5FF" stroke-opacity=".6" />
+  <text x="535" y="117" class="qtiny b" text-anchor="middle" fill="#00E5FF">SEC-A</text>
+  <line x1="48" y1="156" x2="570" y2="156" stroke="#00E5FF" stroke-opacity=".35" />
+  <text x="52" y="172" class="qtiny" fill="#00E5FF" fill-opacity=".8">[ CAPABILITY MATRIX // PROFICIENCY ]</text>
+  <g>
+      <path d="M 56,192 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="196" class="qtxt" fill="#9FDCFF">LangGraph stateful agent graphs</text>
+      <rect x="78" y="205" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="205" width="417.68" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:0.0s" />
+      <text x="566" y="196" class="qtiny b" text-anchor="end" fill="#00E5FF">92</text>
+    </g>
+<g>
+      <path d="M 56,226 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="230" class="qtxt" fill="#9FDCFF">CrewAI / AutoGen multi-agent mesh</text>
+      <rect x="78" y="239" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="239" width="399.52" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:0.26s" />
+      <text x="566" y="230" class="qtiny b" text-anchor="end" fill="#00E5FF">88</text>
+    </g>
+<g>
+      <path d="M 56,260 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="264" class="qtxt" fill="#9FDCFF">Local LLM inference: Ollama, vLLM</text>
+      <rect x="78" y="273" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="273" width="381.36" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:0.52s" />
+      <text x="566" y="264" class="qtiny b" text-anchor="end" fill="#00E5FF">84</text>
+    </g>
+<g>
+      <path d="M 56,294 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="298" class="qtxt" fill="#9FDCFF">Vector stores: Qdrant, ChromaDB</text>
+      <rect x="78" y="307" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="307" width="363.2" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:0.78s" />
+      <text x="566" y="298" class="qtiny b" text-anchor="end" fill="#00E5FF">80</text>
+    </g>
+<g>
+      <path d="M 56,328 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="332" class="qtxt" fill="#9FDCFF">Agent guardrails + eval harness</text>
+      <rect x="78" y="341" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="341" width="345.04" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:1.04s" />
+      <text x="566" y="332" class="qtiny b" text-anchor="end" fill="#00E5FF">76</text>
+    </g>
+  <line x1="48" y1="366" x2="570" y2="366" stroke="#00E5FF" stroke-opacity=".3" />
+  <circle cx="56" cy="386" r="4" fill="#3DFFB0" class="qblink" />
+  <text x="70" y="390" class="qtiny" fill="#9FDCFF">MODULE STATUS: OPERATIONAL</text>
+  <text x="566" y="390" class="qtiny b" text-anchor="end" fill="#00E5FF">SYNC 84%</text>
+  <g><rect x="48" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="57" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="66" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="75" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="84" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="93" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="102" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="111" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="120" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="129" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="138" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="147" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="156" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="165" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="174" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="183" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="192" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="201" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="210" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="219" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="228" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="237" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="246" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="255" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="264" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="273" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="282" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="291" y="398" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /></g>
+</g>
+<g>
+  <path d="M 612,102 L 636,78 H 1170 V 388 L 1146,412 H 612 Z" fill="#030C17" fill-opacity="0.74" stroke="#4DA6FF" stroke-opacity="0.5" stroke-width="1.4" />
+  <path d="M 646,84 H 1158" stroke="#4DA6FF" stroke-width="2" stroke-opacity=".8" />
+  <path d="M 620,378 V 406 H 646" stroke="#4DA6FF" stroke-width="1" stroke-opacity=".35" fill="none" />
+  <g class="qspin" style="transform-origin:666px 130px">
+    <circle cx="666" cy="130" r="27" fill="none" stroke="#4DA6FF" stroke-width="1" stroke-opacity=".35" stroke-dasharray="3 5" />
+    <path d="M 693,130 A 27,27 0 0 1 652.5,153.38" fill="none" stroke="#4DA6FF" stroke-width="2.4" stroke-opacity="0.95" stroke-linecap="round" />
+  </g>
+  <g class="qspinr" style="transform-origin:666px 130px"><path d="M 647,130 A 19,19 0 0 1 675.5,113.55" fill="none" stroke="#4DA6FF" stroke-width="2" stroke-opacity="0.7" stroke-linecap="round" /></g>
+  <g class="qspin2" style="transform-origin:666px 130px"><path d="M 666,130 L 682.07,110.85 A 25,25 0 0 1 691,130 Z" fill="#4DA6FF" fill-opacity=".28" /></g>
+  <circle cx="666" cy="130" r="3.4" fill="#FFFFFF" class="qpulse" filter="url(#qg)" />
+  <circle cx="666" cy="130" r="33" fill="none" stroke="#4DA6FF" stroke-width=".8" stroke-opacity=".2" />
+  <rect x="704" y="102" width="368" height="22" fill="#4DA6FF" fill-opacity=".10" />
+  <text x="714" y="118" class="qttl" fill="#4DA6FF" filter="url(#qg)">DEFENSIVE CYBER</text>
+  <text x="714" y="138" class="qtiny" fill="#9FDCFF" fill-opacity=".85">KERNEL WARFARE / RED-TEAM OPS</text>
+  <rect x="1084" y="102" width="66" height="22" fill="#4DA6FF" fill-opacity=".18" stroke="#4DA6FF" stroke-opacity=".6" />
+  <text x="1117" y="117" class="qtiny b" text-anchor="middle" fill="#4DA6FF">SEC-B</text>
+  <line x1="630" y1="156" x2="1152" y2="156" stroke="#4DA6FF" stroke-opacity=".35" />
+  <text x="634" y="172" class="qtiny" fill="#4DA6FF" fill-opacity=".8">[ CAPABILITY MATRIX // PROFICIENCY ]</text>
+  <g>
+      <path d="M 638,192 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="196" class="qtxt" fill="#9FDCFF">eBPF syscall interception &amp; audit</text>
+      <rect x="660" y="205" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="205" width="408.6" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:0.0s" />
+      <text x="1148" y="196" class="qtiny b" text-anchor="end" fill="#4DA6FF">90</text>
+    </g>
+<g>
+      <path d="M 638,226 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="230" class="qtxt" fill="#9FDCFF">SELinux / AppArmor policy tuning</text>
+      <rect x="660" y="239" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="239" width="385.9" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:0.26s" />
+      <text x="1148" y="230" class="qtiny b" text-anchor="end" fill="#4DA6FF">85</text>
+    </g>
+<g>
+      <path d="M 638,260 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="264" class="qtxt" fill="#9FDCFF">Burp Suite Pro, Metasploit, Nmap</text>
+      <rect x="660" y="273" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="273" width="399.52" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:0.52s" />
+      <text x="1148" y="264" class="qtiny b" text-anchor="end" fill="#4DA6FF">88</text>
+    </g>
+<g>
+      <path d="M 638,294 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="298" class="qtxt" fill="#9FDCFF">Ghidra, GDB, radare2 reversing</text>
+      <rect x="660" y="307" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="307" width="326.88" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:0.78s" />
+      <text x="1148" y="298" class="qtiny b" text-anchor="end" fill="#4DA6FF">72</text>
+    </g>
+<g>
+      <path d="M 638,328 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="332" class="qtxt" fill="#9FDCFF">Zero-trust IAM + custom PAM modules</text>
+      <rect x="660" y="341" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="341" width="372.28" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:1.04s" />
+      <text x="1148" y="332" class="qtiny b" text-anchor="end" fill="#4DA6FF">82</text>
+    </g>
+  <line x1="630" y1="366" x2="1152" y2="366" stroke="#4DA6FF" stroke-opacity=".3" />
+  <circle cx="638" cy="386" r="4" fill="#3DFFB0" class="qblink" />
+  <text x="652" y="390" class="qtiny" fill="#9FDCFF">MODULE STATUS: OPERATIONAL</text>
+  <text x="1148" y="390" class="qtiny b" text-anchor="end" fill="#4DA6FF">SYNC 83%</text>
+  <g><rect x="630" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="639" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="648" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="657" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="666" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="675" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="684" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="693" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="702" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="711" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="720" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="729" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="738" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="747" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="756" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="765" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="774" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="783" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="792" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="801" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="810" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="819" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="828" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="837" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="846" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="855" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="864" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="873" y="398" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /></g>
+</g>
+<g>
+  <path d="M 30,460 L 54,436 H 588 V 746 L 564,770 H 30 Z" fill="#030C17" fill-opacity="0.74" stroke="#00E5FF" stroke-opacity="0.5" stroke-width="1.4" />
+  <path d="M 64,442 H 576" stroke="#00E5FF" stroke-width="2" stroke-opacity=".8" />
+  <path d="M 38,736 V 764 H 64" stroke="#00E5FF" stroke-width="1" stroke-opacity=".35" fill="none" />
+  <g class="qspin" style="transform-origin:84px 488px">
+    <circle cx="84" cy="488" r="27" fill="none" stroke="#00E5FF" stroke-width="1" stroke-opacity=".35" stroke-dasharray="3 5" />
+    <path d="M 111,488 A 27,27 0 0 1 70.5,511.38" fill="none" stroke="#00E5FF" stroke-width="2.4" stroke-opacity="0.95" stroke-linecap="round" />
+  </g>
+  <g class="qspinr" style="transform-origin:84px 488px"><path d="M 65,488 A 19,19 0 0 1 93.5,471.55" fill="none" stroke="#00E5FF" stroke-width="2" stroke-opacity="0.7" stroke-linecap="round" /></g>
+  <g class="qspin2" style="transform-origin:84px 488px"><path d="M 84,488 L 100.07,468.85 A 25,25 0 0 1 109,488 Z" fill="#00E5FF" fill-opacity=".28" /></g>
+  <circle cx="84" cy="488" r="3.4" fill="#FFFFFF" class="qpulse" filter="url(#qg)" />
+  <circle cx="84" cy="488" r="33" fill="none" stroke="#00E5FF" stroke-width=".8" stroke-opacity=".2" />
+  <rect x="122" y="460" width="368" height="22" fill="#00E5FF" fill-opacity=".10" />
+  <text x="132" y="476" class="qttl" fill="#00E5FF" filter="url(#qg)">LOW-LEVEL SYSTEMS</text>
+  <text x="132" y="496" class="qtiny" fill="#9FDCFF" fill-opacity=".85">BARE METAL / CONTAINMENT</text>
+  <rect x="502" y="460" width="66" height="22" fill="#00E5FF" fill-opacity=".18" stroke="#00E5FF" stroke-opacity=".6" />
+  <text x="535" y="475" class="qtiny b" text-anchor="middle" fill="#00E5FF">SEC-C</text>
+  <line x1="48" y1="514" x2="570" y2="514" stroke="#00E5FF" stroke-opacity=".35" />
+  <text x="52" y="530" class="qtiny" fill="#00E5FF" fill-opacity=".8">[ CAPABILITY MATRIX // PROFICIENCY ]</text>
+  <g>
+      <path d="M 56,550 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="554" class="qtxt" fill="#9FDCFF">Async Python, Rust, C, Bash</text>
+      <rect x="78" y="563" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="563" width="431.3" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:0.0s" />
+      <text x="566" y="554" class="qtiny b" text-anchor="end" fill="#00E5FF">95</text>
+    </g>
+<g>
+      <path d="M 56,584 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="588" class="qtxt" fill="#9FDCFF">Fedora Silverblue / Arch core</text>
+      <rect x="78" y="597" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="597" width="408.6" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:0.26s" />
+      <text x="566" y="588" class="qtiny b" text-anchor="end" fill="#00E5FF">90</text>
+    </g>
+<g>
+      <path d="M 56,618 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="622" class="qtxt" fill="#9FDCFF">Podman rootless, LXC, KVM, Waydroid</text>
+      <rect x="78" y="631" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="631" width="390.44" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:0.52s" />
+      <text x="566" y="622" class="qtiny b" text-anchor="end" fill="#00E5FF">86</text>
+    </g>
+<g>
+      <path d="M 56,652 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="656" class="qtxt" fill="#9FDCFF">Hybrid GPU offload + CUDA 13</text>
+      <rect x="78" y="665" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="665" width="308.72" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:0.78s" />
+      <text x="566" y="656" class="qtiny b" text-anchor="end" fill="#00E5FF">68</text>
+    </g>
+<g>
+      <path d="M 56,686 l 5,-5 l 5,5 l -5,5 Z" fill="#00E5FF" fill-opacity=".9" />
+      <text x="78" y="690" class="qtxt" fill="#9FDCFF">FUSE user-space storage mounts</text>
+      <rect x="78" y="699" width="454" height="2.5" fill="#00E5FF" fill-opacity=".13" />
+      <rect x="78" y="699" width="354.12" height="2.5" fill="#00E5FF" fill-opacity=".9" class="bar" style="animation-delay:1.04s" />
+      <text x="566" y="690" class="qtiny b" text-anchor="end" fill="#00E5FF">78</text>
+    </g>
+  <line x1="48" y1="724" x2="570" y2="724" stroke="#00E5FF" stroke-opacity=".3" />
+  <circle cx="56" cy="744" r="4" fill="#3DFFB0" class="qblink" />
+  <text x="70" y="748" class="qtiny" fill="#9FDCFF">MODULE STATUS: OPERATIONAL</text>
+  <text x="566" y="748" class="qtiny b" text-anchor="end" fill="#00E5FF">SYNC 83%</text>
+  <g><rect x="48" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="57" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="66" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="75" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="84" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="93" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="102" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="111" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="120" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="129" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="138" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="147" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="156" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="165" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="174" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="183" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="192" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="201" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="210" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="219" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="228" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="237" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="246" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="255" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="264" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /><rect x="273" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="282" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.75" /><rect x="291" y="756" width="4" height="6" fill="#00E5FF" fill-opacity="0.3" /></g>
+</g>
+<g>
+  <path d="M 612,460 L 636,436 H 1170 V 746 L 1146,770 H 612 Z" fill="#030C17" fill-opacity="0.74" stroke="#4DA6FF" stroke-opacity="0.5" stroke-width="1.4" />
+  <path d="M 646,442 H 1158" stroke="#4DA6FF" stroke-width="2" stroke-opacity=".8" />
+  <path d="M 620,736 V 764 H 646" stroke="#4DA6FF" stroke-width="1" stroke-opacity=".35" fill="none" />
+  <g class="qspin" style="transform-origin:666px 488px">
+    <circle cx="666" cy="488" r="27" fill="none" stroke="#4DA6FF" stroke-width="1" stroke-opacity=".35" stroke-dasharray="3 5" />
+    <path d="M 693,488 A 27,27 0 0 1 652.5,511.38" fill="none" stroke="#4DA6FF" stroke-width="2.4" stroke-opacity="0.95" stroke-linecap="round" />
+  </g>
+  <g class="qspinr" style="transform-origin:666px 488px"><path d="M 647,488 A 19,19 0 0 1 675.5,471.55" fill="none" stroke="#4DA6FF" stroke-width="2" stroke-opacity="0.7" stroke-linecap="round" /></g>
+  <g class="qspin2" style="transform-origin:666px 488px"><path d="M 666,488 L 682.07,468.85 A 25,25 0 0 1 691,488 Z" fill="#4DA6FF" fill-opacity=".28" /></g>
+  <circle cx="666" cy="488" r="3.4" fill="#FFFFFF" class="qpulse" filter="url(#qg)" />
+  <circle cx="666" cy="488" r="33" fill="none" stroke="#4DA6FF" stroke-width=".8" stroke-opacity=".2" />
+  <rect x="704" y="460" width="368" height="22" fill="#4DA6FF" fill-opacity=".10" />
+  <text x="714" y="476" class="qttl" fill="#4DA6FF" filter="url(#qg)">NETWORK TELEMETRY</text>
+  <text x="714" y="496" class="qtiny" fill="#9FDCFF" fill-opacity=".85">PACKET SYNTHESIS / COMMS</text>
+  <rect x="1084" y="460" width="66" height="22" fill="#4DA6FF" fill-opacity=".18" stroke="#4DA6FF" stroke-opacity=".6" />
+  <text x="1117" y="475" class="qtiny b" text-anchor="middle" fill="#4DA6FF">SEC-D</text>
+  <line x1="630" y1="514" x2="1152" y2="514" stroke="#4DA6FF" stroke-opacity=".35" />
+  <text x="634" y="530" class="qtiny" fill="#4DA6FF" fill-opacity=".8">[ CAPABILITY MATRIX // PROFICIENCY ]</text>
+  <g>
+      <path d="M 638,550 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="554" class="qtxt" fill="#9FDCFF">Scapy raw packet synthesis</text>
+      <rect x="660" y="563" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="563" width="399.52" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:0.0s" />
+      <text x="1148" y="554" class="qtiny b" text-anchor="end" fill="#4DA6FF">88</text>
+    </g>
+<g>
+      <path d="M 638,584 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="588" class="qtxt" fill="#9FDCFF">Suricata IDS / Snort sensors</text>
+      <rect x="660" y="597" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="597" width="372.28" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:0.26s" />
+      <text x="1148" y="588" class="qtiny b" text-anchor="end" fill="#4DA6FF">82</text>
+    </g>
+<g>
+      <path d="M 638,618 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="622" class="qtxt" fill="#9FDCFF">WireGuard mesh + TLS 1.3</text>
+      <rect x="660" y="631" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="631" width="408.6" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:0.52s" />
+      <text x="1148" y="622" class="qtiny b" text-anchor="end" fill="#4DA6FF">90</text>
+    </g>
+<g>
+      <path d="M 638,652 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="656" class="qtxt" fill="#9FDCFF">HTTP/3 QUIC, gRPC, WebSockets</text>
+      <rect x="660" y="665" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="665" width="345.04" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:0.78s" />
+      <text x="1148" y="656" class="qtiny b" text-anchor="end" fill="#4DA6FF">76</text>
+    </g>
+<g>
+      <path d="M 638,686 l 5,-5 l 5,5 l -5,5 Z" fill="#4DA6FF" fill-opacity=".9" />
+      <text x="660" y="690" class="qtxt" fill="#9FDCFF">nftables / firewalld isolation</text>
+      <rect x="660" y="699" width="454" height="2.5" fill="#4DA6FF" fill-opacity=".13" />
+      <rect x="660" y="699" width="381.36" height="2.5" fill="#4DA6FF" fill-opacity=".9" class="bar" style="animation-delay:1.04s" />
+      <text x="1148" y="690" class="qtiny b" text-anchor="end" fill="#4DA6FF">84</text>
+    </g>
+  <line x1="630" y1="724" x2="1152" y2="724" stroke="#4DA6FF" stroke-opacity=".3" />
+  <circle cx="638" cy="744" r="4" fill="#3DFFB0" class="qblink" />
+  <text x="652" y="748" class="qtiny" fill="#9FDCFF">MODULE STATUS: OPERATIONAL</text>
+  <text x="1148" y="748" class="qtiny b" text-anchor="end" fill="#4DA6FF">SYNC 84%</text>
+  <g><rect x="630" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="639" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="648" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="657" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="666" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="675" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="684" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="693" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="702" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="711" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="720" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="729" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="738" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="747" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="756" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="765" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="774" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="783" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="792" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="801" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="810" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="819" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="828" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="837" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="846" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /><rect x="855" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="864" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.75" /><rect x="873" y="756" width="4" height="6" fill="#4DA6FF" fill-opacity="0.3" /></g>
+</g>
+<rect width="1200" height="800" fill="url(#qscan)" pointer-events="none" />
+</svg>

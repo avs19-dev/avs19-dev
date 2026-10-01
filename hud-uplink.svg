@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Secure uplink terminal handshake">
+<title>SECURE UPLINK // HANDSHAKE</title>
+<defs>
+  <pattern id="pgrid" width="26" height="26" patternUnits="userSpaceOnUse">
+    <path d="M26 0H0v26" fill="none" stroke="#00E5FF" stroke-width=".35" stroke-opacity=".12" />
+  </pattern>
+  <pattern id="pscan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#00E5FF" fill-opacity=".05" />
+  </pattern>
+  <linearGradient id="pline" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#00E5FF" stop-opacity="0" /><stop offset="16%" stop-color="#00E5FF" stop-opacity=".85" />
+    <stop offset="84%" stop-color="#00E5FF" stop-opacity=".85" /><stop offset="100%" stop-color="#00E5FF" stop-opacity="0" />
+  </linearGradient>
+  <linearGradient id="ppanel" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#00E5FF" stop-opacity=".10" /><stop offset="100%" stop-color="#020A14" stop-opacity=".8" />
+  </linearGradient>
+  <radialGradient id="pbg" cx="50%" cy="40%" r="78%">
+    <stop offset="0%" stop-color="#07192E" /><stop offset="55%" stop-color="#03101E" /><stop offset="100%" stop-color="#02070F" />
+  </radialGradient>
+  <linearGradient id="shimG" x1="0%" x2="100%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" /><stop offset="50%" stop-color="#FFFFFF" stop-opacity=".55" />
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+  </linearGradient>
+  <filter id="pg" x="-60%" y="-100%" width="220%" height="300%">
+    <feGaussianBlur stdDeviation="1.6" result="b" />
+    <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+  </filter>
+  <filter id="pgs" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="0.9" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+  </filter>
+  <clipPath id="bodyClip"><rect x="34" y="58" width="1132" height="264" /></clipPath>
+</defs>
+<style>
+  .phdr{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:22px;font-weight:700;letter-spacing:5.5px}
+  .ptiny{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:11.5px;letter-spacing:1.2px}
+  .pterm{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:14px;letter-spacing:.4px}
+  .ptab{font-family:ui-monospace,"Cascadia Mono",Consolas,"Courier New",monospace;font-size:13px;letter-spacing:1.2px}
+  .rev{animation:rv 12s ease-out infinite backwards}
+  .caret{animation:cr 1.05s steps(1) infinite}
+  .uscan{animation:us 5.5s cubic-bezier(.45,0,.55,1) infinite}
+  .blinkd{animation:bd 1.4s steps(1) infinite}
+  @keyframes rv{0%{opacity:0;transform:translateX(-18px)}6%{opacity:1;transform:translateX(0)}90%{opacity:1}97%,100%{opacity:0}}
+  @keyframes cr{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes us{0%{transform:translateY(0);opacity:0}10%{opacity:.7}90%{opacity:.7}100%{transform:translateY(258px);opacity:0}}
+  @keyframes bd{0%,55%{opacity:1}56%,100%{opacity:.2}}
+</style>
+<rect width="1200" height="340" fill="url(#pbg)" />
+<rect width="1200" height="340" fill="url(#pgrid)" />
+<g stroke="#00E5FF" stroke-width="2.2" fill="none" stroke-opacity=".85" filter="url(#pgs)">
+  <path d="M20,52 V20 H52" /><path d="M1180,52 V20 H1148" />
+  <path d="M20,288 V320 H52" /><path d="M1180,288 V320 H1148" />
+</g>
+
+<path d="M 30,38 L 48,20 H 1170 V 304 L 1152,322 H 30 Z" fill="#02080F" fill-opacity="0.9" stroke="#00E5FF" stroke-opacity="0.5" stroke-width="1.5" />
+<rect x="34" y="24" width="1132" height="34" fill="#00E5FF" fill-opacity=".09" />
+<line x1="34" y1="58" x2="1166" y2="58" stroke="#00E5FF" stroke-opacity=".4" />
+<circle cx="58" cy="41" r="6" fill="#3DFFB0" class="blinkd" />
+<circle cx="80" cy="41" r="6" fill="#00E5FF" class="blinkd" style="animation-delay:.45s" />
+<circle cx="102" cy="41" r="6" fill="#4DA6FF" class="blinkd" style="animation-delay:.9s" />
+<text x="126" y="46" class="ptab" fill="#9FDCFF">avs19@neural-core &#8212; SECURE UPLINK &#8212; wireguard / x25519</text>
+<circle cx="1108" cy="41" r="5" fill="#FF4D4D" class="blinkd" />
+<text x="1150" y="46" class="ptiny" text-anchor="end" fill="#9FDCFF">REC</text>
+
+<g clip-path="url(#bodyClip)">
+  <text x="58" y="100" class="pterm rev" fill="#9FDCFF" style="animation-delay:0.0s">$ connect --target avs19.hud.gateway --protocol wireguard --pki /etc/ssl/avs19.crt</text>
+<text x="58" y="128" class="pterm rev" fill="#3DFFB0" style="animation-delay:0.55s">[✓] VERIFYING HUD HANDSHAKE ............. SUCCESS</text>
+<text x="58" y="156" class="pterm rev" fill="#3DFFB0" style="animation-delay:1.1s">[✓] CIPHER SUITE ........................ X25519 / CHACHA20-POLY1305</text>
+<text x="58" y="184" class="pterm rev" fill="#3DFFB0" style="animation-delay:1.6500000000000001s">[✓] CLEARANCE ........................... LEVEL 4 GRANTED</text>
+<text x="58" y="212" class="pterm rev" fill="#3DFFB0" style="animation-delay:2.2s">[✓] QUAD-SECTOR TELEMETRY ............... STREAMING</text>
+<text x="58" y="240" class="pterm rev" fill="#00E5FF" style="animation-delay:2.75s">$ echo "Discipline beats raw talent. Code clean, penetrate deep."</text>
+<text x="58" y="268" class="pterm rev" fill="#EAF9FF" style="animation-delay:3.3000000000000003s">Discipline beats raw talent. Code clean, penetrate deep.</text>
+  <text x="58" y="296" class="pterm" fill="#00E5FF">$</text>
+  <rect x="76" y="285" width="9" height="15" fill="#00E5FF" class="caret" />
+  <rect x="34" y="58" width="1132" height="3" fill="url(#shimG)" class="uscan" opacity=".5" />
+</g>
+<rect width="1200" height="340" fill="url(#pscan)" pointer-events="none" />
+</svg>
