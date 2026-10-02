@@ -29,8 +29,18 @@
 
 <div align="center">
 
+<h3>◈ MOST USED LANGUAGES</h3>
+
 <img src="https://github-readme-stats.vercel.app/api?username=avs19-dev&show_icons=true&count_private=true&include_all_commits=true&bg_color=02070F&border_color=00E5FF&title_color=00E5FF&icon_color=00E5FF&text_color=9FDCFF&ring_color=00E5FF" width="48%" alt="HUD GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avs19-dev&layout=compact&langs_count=8&bg_color=02070F&border_color=00E5FF&title_color=00E5FF&text_color=9FDCFF" width="48%" alt="HUD top languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avs19-dev&layout=compact&langs_count=10&size_weight=0.5&count_weight=0.5&bg_color=02070F&border_color=00E5FF&title_color=00E5FF&text_color=9FDCFF" width="48%" alt="Most used programming languages" />
+
+<br /><br />
+
+<img src="https://img.shields.io/badge/PYTHON-ASYNC__CORE-04121E?style=for-the-badge&labelColor=0A1A2B&logo=python&logoColor=00E5FF" height="50" alt="Python" />
+<img src="https://img.shields.io/badge/RUST-SYSTEMS-04121E?style=for-the-badge&labelColor=0A1A2B&logo=rust&logoColor=00E5FF" height="50" alt="Rust" />
+<img src="https://img.shields.io/badge/C-LOW__LEVEL-04121E?style=for-the-badge&labelColor=0A1A2B&logo=c&logoColor=00E5FF" height="50" alt="C" />
+<img src="https://img.shields.io/badge/BASH-AUTOMATION-04121E?style=for-the-badge&labelColor=0A1A2B&logoColor=00E5FF" height="50" alt="Bash" />
+<img src="https://img.shields.io/badge/SQL-DATA__LAYER-04121E?style=for-the-badge&labelColor=0A1A2B&logo=postgresql&logoColor=00E5FF" height="50" alt="SQL" />
 
 <br /><br />
 
